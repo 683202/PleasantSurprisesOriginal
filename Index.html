@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href="css/offcanvas.css" rel="stylesheet" media="screen">
+      <!--<link href="css/narrowjumbo.css" rel="stylesheet" media="screen">-->
+  <style>
+  html{
+  font-size:14px;
+
+	font-family: 'Times New Roman';
+  }
+  #content
+  {
+  background-color:#FFF0F0;
+  }
+  body{
+
+	
+  }
+  .carousel{
+  
+   
+	
+	}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+	padding:18px;
+      margin: auto;
+  }
+  .carousel-control.left, 
+.carousel-control.right {
+    background-image: none
+}
+  #example1 {
+		background-size:50px;
+		
+		background-repeat: no-repeat, repeat;
+		padding:1px;
+		font-family: "Courgette", Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		font-size: 12px;
+		line-height: 30px;
+		color: #333;
+}
+.cart {
+   position: relative;
+   top: -16px;
+   right: -1206px;
+}
+.help {
+   position: relative;
+   top: -16px;
+   right: -1006px;
+}
+
+
+p {
+   margin: 0;
+   padding: 0;
+}
+footer
+{
+clear:left;
+text-align:center;
+color:#00ced1;
+position:fixed;
+left:0px;
+bottom:0px;
+height:30px;
+width:100%;
+background:#999;
+
+ background-color: #FCBBBB;
+}
+#header1{
+
+  background-color: #FCBBBB;
+}
+  </style>
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+	
+});
+</script>
+<link href="css/offcanvas.css" rel="stylesheet" media="screen">
+	<script src="js/offcanvas.js"></script>
+</head>
+<body id="example1" style="font-family: 'Calibri'; ">
+<div >
+	<div >
+		<img src="img2/a.png" />
+	</div>
+	<div ><br><h5>
+		<a  class="glyphicon glyphicon-calendar"></span><span style="font-family:'Lucida Calligraphy'"> Same Day deliveries</span>
+		</a></h5>
+	</div>
+	<div><br><h5>
+		<a><span class="glyphicon glyphicon-bed"></span><span style="font-family:'Lucida Calligraphy'"> Mid Night deliveries</span></a></h5>
+	</div>
+		
+</div>
+
+ 
+<nav role="navigation">
+  <div>
+    <div>
+      <button type="button" class="navbar-toggle">
+       
+      </button>
+      
+    </div>
+    <div  id="myNavbar" style="font-size:14px;"> 
+      <ul >
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+        
+          <li>
+          <a href="#">
+		 Surprises		  
+		  <span class="caret"></span></a>
+           <ul >
+					    <li>Birthdays</li>
+						<li><a href="Birthday.html">Birthday Flowers</a></li>
+						<li><a href="Birthday.html">Birthday Cakes</a></li>
+						<li><a href="Birthday.html">Birthday Gifts</a></li>
+						<li class="divider"></li>
+						
+						<li>Anniversaries</li>
+						<li><a href="Anniversary.html">Anniversary Flowers</a></li>
+						<li><a href="Anniversary.html">Anniversary Cakes</a></li>
+						<li><a href="Anniversary.html">Anniversary Gifts</a></li>	
+					  </ul>
+					  	
+        </li>
+		  <li>  <a href="Combos.html"> Flowers & Combos	</a>
+        </li>
+      </ul>
+      <ul>
+							<li><a href="#contact">Contact Us</a></li>
+						</ul>
+    </div>
+  </div>
+</nav>
+<div id="content"><br>
+<div style="font-size:14px;background-color:white">	
+<div>
+  <div>
+  
+	<div >
+			<div>
+				<div  style="background-color:white; border:1px solid white; margin-left:-10px">
+					<ul>
+						<li style="margin-top:-5px"><b>By Occasion</b></li>
+						<li style="padding:0px"><a href="Birthday.html">
+								<span class="glyphicon glyphicon-heart-empty"></span>
+								<span >Birthday</span>
+							</a>
+								
+						</li>
+						<li  style="padding:0px"><a href="Anniversary.html">
+								<span class="glyphicon glyphicon-calendar"></span>
+								<span >Anniversary</span>
+								</a>
+						</li>
+					
+						<li ><b>Gifts for</b></li>
+						<li><a href="Combos.html">
+								<span class="glyphicon glyphicon-thumbs-up "></span>
+								<span style="padding:3px">Friends</span>								
+								</a>
+						</li>
+						<li><a href="Combos.html">
+							<span class="glyphicon glyphicon-gift"></span>
+							<span style="padding:3px">Family</span>
+							</a>
+						</li>												
+					</ul>
+					
+				</div>
+				</div>
+				
+		</div>
+  </div>
+  <div  style="background-color:white">
+  
+	 <div id="myCarousel" >
+    <!-- Indicators -->
+    <ol>
+      <li></li>
+      <li></li>
+      <li></li>    
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div role="listbox">
+      <div class="item active">
+        <img src="img2/flower car1.png" alt="Chania" >
+		  
+      </div>
+
+      <div class="item">
+        <img src="img2/flower car2.png" alt="Chania">
+		 
+      </div>
+    
+      <div class="item">
+        <img src="img2/b.png" alt="Flower">
+		  
+      </div>
+
+      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a  href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" >
+	  </span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a  href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" >
+	  </span
+      <span class="sr-only">Next</span>
+    </a>
+  </div><br><br>
+ 
+</div><br>
+
+<div >
+	<div>
+		<div>
+			<div>
+			 <img src="img2/love.png" alt="Flower">
+			</div>
+			<div  style="font-family:'Lucida Calligraphy'">
+				<h2 >Birthday OR Anniversaries</h2>
+				<p class="text-center" >Make the Moment	&nbsp;&nbsp;	
+				<a href="#">Shop Now</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div>
+	<h3  style="padding-left:15px">
+		Best Sellers		
+	</h3>
+	<div style="padding:15px">
+	<ul >		
+		<li class="active"><a  href="#flowers">Flowers</a></li>
+		<li><a  href="#cakes">Cakes</a></li>
+		<li><a  href="#flocak">Combos</a></li>
+	</ul>
+	<div><br>
+	  <div id="flowers">
+		<div class="gridbordergrey ">
+			<a href="img/flow17.jpg" >			
+				<img src="img/flow17.jpg" /></a>
+				<div class="text-center">
+				Tulips!</div>
+				<div >
+					<div>Rs.450</div> 
+					<div ><span>View</span></div>
+				</div>
+			
+		</div>
+		<div class="gridbordergrey ">
+			<a href="img/flow15.jpg" >
+				<img src="img/flow15.jpg" /></a>
+				<div class="text-center">
+				Flower bouquet!</div>
+				<div>
+					<div>Rs.450</div> 
+					<div><span class="label label-danger text-right">View</span></div>
+				</div>
+			</div>
+			<div class=" gridbordergrey ">
+			<a href="img/flow14.jpg" >
+				<img src="img/flow14.jpg" /></a>
+				<div class="text-center">
+				Iris!</div>
+				<div>
+					<div>Rs.450</div> 
+					<div><span>View</span></div>
+				</div>
+			</div>
+			<div class="gridbordergrey ">
+			<a href="img/flow13.jpg" >
+				<img src="img/flow13.jpg" /></a>
+				<div class="text-center">
+				Asters!</div>
+				<div>
+					<div>Rs.450</div> 
+					<div><span>View</span></div>
+				</div>
+			</div>
+	  </div>
+	   <div id="cakes">
+		<div class=" gridbordergrey ">
+			<a href="img2/velcake.PNG" >			
+				<img src="img2/velcake.PNG" /></a>
+				<div class="text-center">
+				Chocolate Cake!</div>
+				<div class="row">
+					<div >Rs.850</div> 
+					<div ><span>View</span></div>
+				</div>
+			
+		</div>
+		<div  gridbordergrey ">
+			<a href="img2/dryfruit.PNG" >
+				<img src="img2/dryfruit.PNG"  /></a>
+				<div class="text-center">
+				Dryfruit cake!</div>
+				<div >
+					<div>Rs.1550</div> 
+					<div><span>View</span></div>
+				</div>
+			</div>
+			<div class="gridbordergrey ">
+			<a href="img2/almond cake.PNG" >
+				<img src="img2/almond cake.PNG"  /></a>
+				<div class="text-center">
+				almond cake!</div>
+				<div>
+					<div>Rs.1450</div> 
+					<div><span>View</span></div>
+				</div>
+			</div>
+			<div class=" gridbordergrey ">
+			<a href="img2/fruitcake.PNG" >
+				<img src="img2/fruitcake.PNG"  /></a>
+				<div class="text-center">
+				Fruit cake!</div>
+				<div>
+					<div>Rs.850</div> 
+					<div><span>View</span></div>
+				</div>
+			</div>
+	  </div>
+	  <div id="flocak">
+		<div class=" gridbordergrey ">
+			<a href="img/cake1.jpg" >			
+				<img src="img/cake1.jpg" /></a>
+				<div class="text-center">
+				Black Forest Cake and Red roses!</div>
+				<div>
+					<div>Rs.1950</div> 
+					<div><span>View</span></div>
+				</div>
+			
+		</div>
+		
+			
+			<div class="gridbordergrey ">
+			<a href="img/cake1.jpg" >			
+				<img src="img/cake1.jpg" /></a>
+				<div class="text-center">
+				White Forest Cake and Flower Bouquet!</div>
+				<div>
+					<div>Rs.2250</div> 
+					<div><span>View</span></div>
+				</div>
+			
+		</div>
+	  </div>
+	  </div>
+	  </div>
+</div>
+
+<div  id="contact"> 
+	<h3  style="padding-left:15px">
+			Contact Us		
+		</h3>
+		<div style="padding:15px">
+		<section>
+     
+
+        <div>
+          <div>
+            <p>SMS us or contact us from the address below:</p><br>
+
+
+            <address>
+              <strong>Pleasant Surprises Pvt Ltd.</strong></br>
+              111, IndraNagar </br>
+              Plot no. 45</br>
+              Bangalore - 456213</br>
+              P: +91 9999999999
+            </address>
+          </div>
+          
+          <div >
+            <form action="">
+              <div class="form-group">
+                <label for="user-name">Name</label>
+                <div>
+                  <input type="text"  id="user-name" placeholder="Enter you name">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-email">Email</label>
+                <div >
+                  <input type="text"  id="user-email" placeholder="Enter you Email Address">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-message">Any Message</label>
+                <div>
+                  <textarea name="user-message" id="user-message" 
+                  cols="20" rows="10" placeholder="Enter your Message"></textarea>
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <div >
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+
+             
+
+            </form>
+          </div>
+        </div><!-- End the row -->
+
+		</section>
+	</div>
+</div>
+<div  id="myModal"  role="dialog">
+   <div>
+      <div>
+         <div>
+           <button type="button" class="close">
+                  &times;
+            </button>
+            <h4  id="myModalLabel">
+               Same Day deliveries
+            </h4>
+			
+         </div>
+         <div>
+			 <table>		
+				<thead>	
+					<th>No. of Hours</th>
+					<th>Fare Rate</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Deliver in next 1 hour</b></td>
+						<td>Base rate x 2.5</td>						
+					</tr>
+					<tr>
+						<td>Deliver in next 2-5 hours</b></td>
+						<td>Base rate x 2</td>
+					</tr>
+					<tr>
+						<td>Deliver in next 5-7 hours</b></td>
+						<td>Base rate x 1.5</td>
+					</tr>
+				</tbody>
+			</table>
+      </div><!-- /.modal-body -->
+  </div><!-- /.modal-content -->
+</div><!-- /.modal -->
+</div><!-- /.modal -->
+
+<div  id="myModal2" >
+   <div>
+      <div>
+         <div>
+           <button type="button" class="close">
+                  &times;
+            </button>
+            <h4  id="myModalLabel">
+               Mid Night deliveries
+            </h4>
+			
+         </div>
+         <div>
+			 <table >		
+				<thead>	
+					<th>No. of Hours</th>
+					<th>Fare Rate</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Deliver in next 1 hour</b></td>
+						<td>Base rate x 3.5</td>						
+					</tr>
+					<tr>
+						<td>Deliver in next 2-5 hours</b></td>
+						<td>Base rate x 3</td>
+					</tr>
+					<tr>
+						<td>Deliver in next 5-7 hours</b></td>
+						<td>Base rate x 2.5</td>
+					</tr>
+				</tbody>
+			</table>
+      </div><!-- /.modal-body -->
+  </div><!-- /.modal-content -->
+</div><!-- /.modal -->
+</div><!-- /.modal -->
+</div><br>
+</div><br>
+<div style="background-color:#F3EFEF; padding:5px" class="text-center">
+	<h4>Copyright @ ETA</h4>
+</div><br>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href="css/offcanvas.css" rel="stylesheet" media="screen">
+      <!--<link href="css/narrowjumbo.css" rel="stylesheet" media="screen">-->
+  <style>
+  #content
+  {
+  background-color:#FFF0F0;
+  }
+  body{
+
+	font-size:14px;
+  }
+  .carousel{
+  
+   
+	
+	}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+	padding:18px;
+      margin: auto;
+  }
+  
+  #example1 {
+		background-size:50px;
+		
+		background-repeat: no-repeat, repeat;
+		padding:1px;
+		font-family: "Courgette", Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		font-size: 12px;
+		line-height: 30px;
+		color: #333;
+}
+.cart {
+   position: relative;
+   top: -16px;
+   right: -1206px;
+}
+.help {
+   position: relative;
+   top: -16px;
+   right: -1006px;
+}
+
+
+p {
+   margin: 0;
+   padding: 0;
+}
+footer
+{
+clear:left;
+text-align:center;
+color:#00ced1;
+position:fixed;
+left:0px;
+bottom:0px;
+height:30px;
+width:100%;
+background:#999;
+
+ background-color: #FCBBBB;
+}
+#header1{
+
+  background-color: #FCBBBB;
+}
+  </style>
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+	
+});
+</script>
+<link href="css/offcanvas.css" rel="stylesheet" media="screen">
+	<script src="js/offcanvas.js"></script>
+</head>
+<body id="example1" style="font-family: 'Calibri'; ">
+<div >
+	<div >
+		<img src="img2/logo1.PNG" />
+	</div>
+	<div><br><h5>
+		<a><span class="glyphicon glyphicon-calendar"></span><span style="font-family:'Lucida Calligraphy'"> Same Day deliveries</span>
+		</a></h5>
+	</div>
+	<div><br><h5>
+		<a><span class="glyphicon glyphicon-bed"></span><span style="font-family:'Lucida Calligraphy'"> Mid Night deliveries</span></a></h5>
+	</div>
+		
+</div>
+
+ 
+<nav role="navigation">
+  <div>
+    <div>
+      <button class="navbar-toggle" type="button">
+        <span ></span>
+        <span></span>
+		 
+    	<span ></span>
+      </button>
+      
+    </div>
+    <div  id="myNavbar" style="font-size:14px;"> 
+      <ul>
+        <li class=""><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+        
+          <li>
+          <a href="#">
+		 Surprises		  
+		  <span class="caret"></span></a>
+           <ul>
+					    <li>Birthdays</li>
+						<li><a href="Birthday.html">Birthday Flowers</a></li>
+						<li><a href="Birthday.html">Birthday Cakes</a></li>
+						<li><a href="Birthday.html">Birthday Gifts</a></li>
+						<li class="divider"></li>
+						
+						<li>Anniversaries</li>
+						<li><a href="Anniversary.html">Anniversary Flowers</a></li>
+						<li><a href="Anniversary.html">Anniversary Cakes</a></li>
+						<li><a href="Anniversary.html">Anniversary Gifts</a></li>	
+					  </ul>
+        </li>
+		  <li>  <a href="Combos.html"> Flowers & Combos	</a>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<div id="content"><br>
+
+<div  style="font-size:14px;background-color:white">	
+<div>
+ <ol  style="font-size:14px;background-color:white">
+    <li><a href="index.html">Home</a></li>
+    <li class="active">Combos</li>        
+  </ol>
+  </div> 
+
+<div>
+	<h3  style="padding-left:15px;margin-top:-10px">
+		Flowers and Cakes Combos
+	</h3>
+	<div class=" gridbordergrey ">
+			<a href="img/cake1.jpg" >			
+				<img src="img/cake1.jpg"  
+				title="Black Forest Cake and Red roses!" /></a>				
+				 <p class="text-center">Rs.1950</p>
+			
+		</div>
+		
+			
+			<div class=" gridbordergrey ">
+			<a href="img/cake2.jpg" >			
+				<img src="img/cake2.jpg" 
+				title="White Forest Cake and Flower Bouquet!"/></a>
+				<p class="text-center">Rs.2250</p>
+				
+			
+		</div>
+		<div class="text-center">
+		<ul style="text-align:center">
+			 <li><a href="#">&laquo;</a></li>
+			 <li class="active"><a href="Combos.html">1</a></li>
+			 <li><a href="#">2</a></li>
+			 <li><a href="#">&raquo;</a></li>
+			</ul>
+		</div>
+	
+</div>
+  </div>
+  <div  id="myModal"  >
+   <div>
+      <div >
+         <div>
+           <button type="button" class="close" >
+                  &times;
+            </button>
+            <h4 >
+               Same Day deliveries
+            </h4>
+			
+         </div>
+         <div >
+			 <table >		
+				<thead>	
+					<th>No. of Hours</th>
+					<th>Fare Rate</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Deliver in next 1 hour</b></td>
+						<td>x 2.5</td>						
+					</tr>
+					<tr>
+						<td>Deliver in next 2-5 hours</b></td>
+						<td>x 2</td>
+					</tr>
+					<tr>
+						<td>Deliver in next 5-7 hours</b></td>
+						<td>x 1.5</td>
+					</tr>
+				</tbody>
+			</table>
+      </div><!-- /.modal-body -->
+  </div><!-- /.modal-content -->
+</div><!-- /.modal -->
+</div><!-- /.modal -->
+
+<div  id="myModal2" >
+   <div>
+      <div>
+         <div>
+           <button type="button" class="close" >
+                  &times;
+            </button>
+            <h4  id="myModalLabel">
+               Mid Night deliveries
+            </h4>
+			
+         </div>
+         <div>
+			 <table>		
+				<thead>	
+					<th>No. of Hours</th>
+					<th>Fare Rate</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Deliver in next 1 hour</b></td>
+						<td>x 3.5</td>						
+					</tr>
+					<tr>
+						<td>Deliver in next 2-5 hours</b></td>
+						<td>x 3</td>
+					</tr>
+					<tr>
+						<td>Deliver in next 5-7 hours</b></td>
+						<td>x 2.5</td>
+					</tr>
+				</tbody>
+			</table>
+      </div><!-- /.modal-body -->
+  </div><!-- /.modal-content -->
+</div><!-- /.modal -->
+</div><!-- /.modal --><br>
+</div>
+</div>
+</div><br>
+<div style="background-color:#F3EFEF; padding:5px" class="text-center">
+	<h4>Copyright @ ETA</h4>
+</div><br>
+</body>
+</html>

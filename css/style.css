@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+  #example1 {
+		background-image: url(img/logo.jpg);
+		background-color: #333;
+		background-size:100px;
+		background-repeat: no-repeat, repeat;
+		padding:1px;
+		font-family: "Courgette", Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		font-size: 12px;
+		line-height: 30px;
+		color: #333;
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img 
+  {
+      width: 30%;
+	  height: 30%;
+      margin: auto;
+  }
+  
+  
+.cart {
+   position: relative;
+   top: -16px;
+   right: -1206px;
+}
+.help {
+   position: relative;
+   top: -16px;
+   right: -1006px;
+}
+.jumbotron {
+    
+	  background-image: url(img/logo.jpg);
+	background-size:cover;
+	background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 50px;
+}
+<!--header {
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	text-shadow: 0 2px white, 0 3px #777;
+    font-size: 16px;
+    line-height: 40px;
+	width:100%;
+	
+	
+}-->
+p {
+   margin: 0;
+   padding: 0;
+}
+footer
+{
+clear:left;
+text-align:center;
+color:#00ced1;
+position:fixed;
+left:0px;
+bottom:0px;
+height:30px;
+width:100%;
+background:#999;
+}
+  
